@@ -1,0 +1,6 @@
+currency = float(input("How much money do you want to calculate: "))
+course = float(input("Enter the exchange rate: "))
+
+result = currency * course
+
+print("Total", result)
