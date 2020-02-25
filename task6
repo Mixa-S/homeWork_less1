@@ -1,0 +1,6 @@
+sumOfTasks = int(input("Введите количество задач: "))
+correctAns = int(input("Введите количество правильных решений: "))
+
+ratio = (correctAns / sum50OfTasks) * 100
+
+print("Правильно решено", ratio, "% задач")
